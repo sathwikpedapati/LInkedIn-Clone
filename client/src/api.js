@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://linkedin-clone-1-8jqm.onrender.com//api",
 });
 
 API.interceptors.request.use((req) => {
